@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.box {
+    position: relative;
+    /* overflow: hidden; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flx {
+    display: flex;
+}
+.flx-jc {
+    display: flex;
+    justify-content: center;
+}
+.flx-sb {
+    display: flex;
+    justify-content: space-between;
+}
+.flx-ac {
+    display: flex;
+    align-items: center;
+}
+a, a:visited {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.ma {
+    margin: 0 auto;
+}
+.tac {
+    text-align: center;
+}
+.tal {
+    text-align: left;
+}

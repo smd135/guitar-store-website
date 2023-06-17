@@ -1,0 +1,457 @@
+/*--Variables--*/
+:root {
+    /*colors*/
+    --black-color:#121212;
+    --gray-color:#a0a0a0;
+    --orange:#FF6428;
+    --dark-gray:#666666;
+    /*fonts*/
+    --poppins:'Poppins',sans-serif;
+    --calsans:'CalSans',sans-serif;
+    /*font-sizes*/
+    --big-header: 56px;
+    --middle-header: 44px;
+    --menu-link: 16px;
+    --middle-ft: 24px;
+    --small-ft: 14px;
+    /*font-weight*/
+    --semi-b: 600;
+    --medium: 500;
+    --regular: 400;
+} 
+@font-face {
+    font-family: CalSans;
+    src: url(../fonts/CalSans-SemiBold.woff2);
+}
+header {
+    position: relative;
+    max-height: 29px;
+    padding: 62px 0 144px;
+}
+.rhythm-logo {
+    color: var(--black-color);
+    font-family: var(--calsans);
+    font-weight: var(--semi-b);
+    font-size: var(--middle-ft);
+    padding-left: 12px;
+}
+.menu-link {
+    font-family: var(--poppins);
+    font-weight: var(--medium);
+    font-size: var(--16px);
+    color: var(--gray-color);
+    padding: 0 28px;
+}
+.menu-link:hover {
+    color: var(--dark-gray);
+}
+/*Explore Section*/
+.explore {
+    padding-bottom: 220px;
+}
+.explore-wrap {
+    width: 520px;
+}
+.guitar-bg {
+    display: block;
+    right: 0;
+    top: -25%;
+    position: absolute;
+    width: 50%; 
+    height: 50%px;
+}
+.butterfly img {
+    display: block;
+    margin: 0 auto;
+}
+.butterfly {
+    margin: 0 auto;
+   
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 100%;
+    left: 60%;
+    bottom: -6%;
+}
+.big-header {
+    font-family: var(--calsans);
+    font-weight: 600;
+    font-size: var(--big-header);
+    color: var(--black-color);
+    line-height: 65px;
+}
+.orange-sp {
+    color: var(--orange);
+}
+.subheader {
+    font-family: var(--poppins);
+    font-size: var(--menu-link);
+    font-weight: var(--medium);
+    color: var(--dark-gray);
+    padding: 16px 0 33px;
+    width: 400px;
+}
+
+.button {
+    padding: 18px 48px;
+    background-color: var(--orange);
+    border-radius: 40px;
+    color: #fff;
+    font-family: var(--poppins);
+    font-weight: var(--semi-b);
+    margin-right: 40px;
+}
+.button-box i {
+    font-size: 44px;
+    color: #b2b2b2;
+    padding-right: 27px;
+}
+/*Store Section*/
+.store {
+    padding-bottom: 90px;
+}
+.store-wrap {
+    padding-top: ;
+}
+.m-header {
+    font-family: var(--calsans);
+    font-weight: var(--semi-b);
+    font-size: var(--middle-header);
+    color: #121212;
+}
+.board {
+    padding-top: 86px;
+}
+.board-header {
+    font-family: var(--calsans);
+    font-weight: var(--semi-b);
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    color: #121212;
+}
+.view-all h3 {
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-weight: var(--regular); 
+    color: #868686;
+}
+.view-all:hover {
+    text-decoration: underline;
+    color: #868686;
+}
+.board-cards {
+    gap: 54px;
+}
+.board-item {
+    padding-top: 32px;
+    width: 364px;
+}
+.board-item-descr {
+    padding-top: 40px;
+    font-family: var(--poppins);
+}
+.board-item-header {
+    color: #121212;
+    font-size: 16px;
+    font-weight: 500;
+}
+.board-price {
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+/*Guitar Categories*/
+.choose {
+    padding: 90px 0 90px;
+}
+.categories-set {
+    padding-top: 80px;
+    gap: 70px;
+}
+.cat-item {
+    position: relative;
+    width: 220px;
+    height: 280px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+.cat-item a {
+    display: block;
+    color: inherit;
+}
+.cat-item:hover {
+    opacity: .92;
+}
+.cat-header {
+    position: absolute;
+    bottom: 0px;
+    bottom: 10%;
+    width: 100%;
+}
+/*Best Brands*/
+.best-brands-wrap {
+    width: 1200px;
+}
+.brands-stack {
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 142px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 80px;
+    grid-column-gap: 160px;
+    padding-top: 75px;
+}
+.brands-stack img {
+    display: block;
+    vertical-align: middle;
+}
+/*Rhythm Section*/
+.rhythm {
+    margin: 183px 0 237px;
+    background-color: var(--black-color);
+    height: 508px;
+}
+.rhythm-wrap {
+    padding: 90px 0 97px;
+}
+.rhythm-wrap .m-header {
+    color: #fff;
+}
+/*Why Section*/
+.why-wrap {
+    padding: 75px 0 97px;
+}
+.why-rect {
+    width: 72px;
+    height: 72px;
+    vertical-align: middle;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #262626;
+}
+.why-item {
+    width: 202px;
+}
+.why-header {
+    padding: 40px 0 12px;
+    font-size: 18px;
+    font-family: var(--poppins);
+    color: #fff;
+    font-weight: 600;
+}
+.why-sheader {
+    font-size: 14px;
+    font-family: var(--poppins);
+    color: #666666;
+    line-height: 21px;
+    font-weight: 400;
+}
+/*Feedback Section*/
+.feedback {
+    padding-bottom: 240px;
+}
+.review {
+    padding-top: 109px;
+    gap: 146px;
+}
+.review-img {
+    position: relative;
+    
+}
+.review-customer {
+    display: block;
+}
+.rect-bg {
+    overflow: visible;
+    position: absolute;
+    width: 284px;
+    height: 258px;
+    background-color: #FF6428;
+    border-radius: 40px 0 400px 400px;
+    bottom: 20px;
+    z-index: -1;
+    transform: rotate(-7.72deg);
+    left: -60px;
+}
+.review-text {
+    width: 524px;
+    font-family: var(--poppins);
+}
+.review-descr {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #666666;
+}
+.artist-name {
+    padding: 56px 0 8px;
+    font-weight: 600;
+    color: #121212;
+    font-size: 24px;
+}
+.artist {
+    font-weight: 500;
+    color: #868686;
+    font-size: 18px;
+    letter-spacing: 0.08rem;
+}
+.orange-stripes {
+    gap: 8px;
+}
+.orange-st::after {
+    content: '';
+    display: block;
+    border-radius: 20px;
+    border: 0px solid #FF6428;
+    border-left-width: 24px;
+    height: 12px;
+    margin-right: 4px;
+}
+.gray-st::after {
+    content: '';
+    display: block;
+    border-radius: 20px;
+    border: 0px solid #c4c4c4;
+    border-left-width: 10px;
+    height: 16px;
+}
+/*Rhythm App*/
+
+
+
+
+.rhythm-left {
+    width: 490px;
+}
+.rhythm-left .m-header {
+    color: #121212;
+    line-height: 54px;
+}
+.store-badges {
+    padding-top: 60px;
+    gap: 27px;
+}
+.rhythm-right-wrap {
+    width: 568px;
+    position: relative;
+    height: 461px;
+    gap: 33px;
+}
+.rhythm-bg {
+    position: absolute;
+    width: 568px;
+    height: 354px;
+    background-color: #FF6428;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+}
+.screens-wrap {
+    position: relative;
+    gap: 33px;
+}
+img {
+    display: block;
+}
+.screen-img-one {
+    position: relative;
+    top: -80px;
+    box-shadow: 8px 8px 15px -14px rgba(0,0,0,0.37);
+}
+.screen-img-two {
+    position: relative;
+    top: -16px;
+    /* box-shadow: 0px 2px 13px -8px #000000; */
+    box-shadow: 8px 8px 15px -14px rgba(0,0,0,0.37);  
+}
+/*--Footer--*/
+footer {
+    height: 380px;
+    background-color: #eeeeee;
+    padding: 80px 0 43px;
+}
+footer a {
+    display: block;
+}
+.footer-link {
+    padding-top: 16px;
+    color:#666666;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--poppins);
+}
+.footer-link i {
+    display: lock;
+    color: #666666;
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+.footer-item {
+    width: 115px;
+    margin-right: 126px;
+}
+footer-item-social {
+    width: 160px;
+    
+}
+.email .footer-link {
+    padding-top: 0;
+}
+.email .footer-link span {
+    margin-right: 10px;
+    display: lock;
+    color: #666666;
+    font-size: 24px;
+    line-height: 24px;
+}
+.f-header {
+    font-family: var(--poppins);
+    font-size: 18px;
+    color: #121212;
+    font-weight: 600;
+    padding-top: 4px;
+}
+.footer-wrap {
+    width: 100%;
+}
+.logo-mail {
+    padding-bottom: 28px;
+}
+.footer-item-mail {
+    width: 225px;
+    margin-right: 255px;
+}
+.email .flx-ac {
+    display: block;
+    color: #666666;
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+.pd1 {
+    padding-right: 10px;
+}
+.email i {
+    display: lock;
+    color: #666666;
+    font-size: 24px;
+    line-height: 24px;
+}
+.social-link {
+    padding-top: 20px;
+    display: lock;
+    color: #666666;
+    font-size: 24px;
+    line-height: 24px;
+}
+.social-links {
+    gap: 32px;
+}
